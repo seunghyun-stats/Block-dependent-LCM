@@ -1,7 +1,7 @@
 # Block-dependent-LCM
 
 This repository contains the R codes for the manuscript [Lee, S. and Gu, Y. (2026), Learning High-Dimensional Block-Dependent Latent
-Class Models](https://arxiv.org/abs/).
+Class Models](https://arxiv.org/abs/2606.29631).
 
 ### For simulations:
 The folder `Simulations-Main` contains the codes for the proposed three-step method (see Section 3 in the manuscript). `simulation_main.R` contains both the code for the method and main simulations. `simulation_CV.R` contains the Cross-Validation code that is used to select the graphical lasso tuning parameter. The `Comparison` folder contains additional codes to implement and compare the performance with the joint graphical lasso method in Danaher et al. 2014.
